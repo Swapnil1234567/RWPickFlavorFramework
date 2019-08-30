@@ -1,2 +1,2 @@
 # RWPickFlavorFramework
-This is ice screem library.
+This is ice cream library.
