@@ -29,10 +29,11 @@ s.dependency 'Alamofire', '~> 4.7'
 s.dependency 'MBProgressHUD', '~> 1.1.0'
 
 # 8
-s.source_files = "RWPickFlavorFramework/**/*.{swift}"
-
+s.source_files = "RWPickFlavorFramework.framework/Headers/*.h"
+s.public_header_files = "RWPickFlavorFramework.framework/Headers/*.h"
+s.vendored_frameworks = "RWPickFlavorFramework.framework"
 # 9
-s.resources = "RWPickFlavorFramework/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+#  s.resources = "RWPickFlavorFramework/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "4.2"
