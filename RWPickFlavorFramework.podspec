@@ -29,9 +29,9 @@ s.dependency 'Alamofire', '~> 4.7'
 s.dependency 'MBProgressHUD', '~> 1.1.0'
 
 # 8
-s.source_files = "RWPickFlavorFramework.framework/Headers/*.h"
-s.public_header_files = "RWPickFlavorFramework.framework/Headers/*.h"
-s.vendored_frameworks = "RWPickFlavorFramework.framework"
+s.source_files = "RWPickFlavor.framework/Headers/*.h"
+s.public_header_files = "RWPickFlavor.framework/Headers/*.h"
+s.vendored_frameworks = "RWPickFlavor.framework"
 # 9
 #  s.resources = "RWPickFlavorFramework/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
